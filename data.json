@@ -1,0 +1,42 @@
+{
+    "disciplined_brain":{
+        "description" : 
+            "The adjacency matrix for a disciplined brain, a brain with high goal focus and attention span ",        
+        "matrix": [
+            [0.4, 0.7, 0.2, 0.0, 0.0, 0.0],
+            [0.0, 0.5, 0.6, 0.0, 0.0, 0.0],
+            [0.0, 0.0, 0.6, -0.4, -0.2, 0.0],
+            [-0.8, 0.0, 0.0, 0.7, 0.8, -0.5],
+            [0.0, 0.0, 0.0, 0.7, 0.8, -0.5],
+            [0.3, 0.0, 0.0, 0.0, 0.0, 0.3]
+        ],
+        "state_vector_start" :
+        [0.0, 0.0, 0.0, 0.8, 0.8, 0.2]      
+    },
+    "average_brain":{
+        "descripition" : 
+            "The adjacency matrix for an average brain, average goal focus/attention, susceptible to dopaminergic content",        
+        "matrix": [
+            [0.3, 0.8, 0.2, 0.0, 0.0, 0.0],
+            [0.0, 0.4, 0.7, 0.0, 0.0, 0.0],
+            [0.0, 0.0, 0.5, -0.5, -0.4, 0.0],
+            [-0.6, 0.0, 0.0, 0.6, 0.7, 0.2],
+            [0.0, 0.0, 0.0, 0.5, 0.6, 0.2],
+            [0.6, 0.0, 0.0, 0.0, 0.0, 0.4]
+        ],
+        "state_vector_start": [0.0, 0.0, 0.0, 0.6, 0.6, 0.3]    
+    },
+     "distracted_brain":{
+        "description" : 
+            "The adjacency matrix for a disciplined brain, a brain with high goal focus and attention span ",        
+        "matrix": [
+            [0.2, 0.9, 0.3, 0.0, 0.0, 0.0],
+            [0.0, 0.3, 0.8, 0.0, 0.0, 0.0],
+            [0.0, 0.0, 0.4, -0.8, -0.7, 0.0],
+            [-0.3, 0.0, 0.0, 0.3, 0.4, 0.5],
+            [0.0, 0.0, 0.0, 0.2, 0.3, 0.4],
+            [0.9, 0.0, 0.0, 0.0, 0.0, 0.6]
+        ],
+        "state_vector_start": [0.1, 0.1, 0.1, 0.4, 0.3, 0.5]    
+    }
+}
